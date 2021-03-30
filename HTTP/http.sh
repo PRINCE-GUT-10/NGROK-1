@@ -29,5 +29,4 @@ echo -e $red PLEASE ENTER PORT 4 DIGITS
 read -p "ENTER PORT " NGROK
 if [ $NGROK = 0 ]; then
 ./ngrok http $NGROK
-
-
+bash ngrok.sh
