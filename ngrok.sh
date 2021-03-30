@@ -70,6 +70,7 @@ download_ngrok() {
 install_ngrok() {
 	if [[ -e ".server/ngrok" ]]; then
 		echo -e $red Ngrok already installed."
+            else
 		echo -e $red Installing ngrok..."
 		arch=`uname -m`
 		if [[ ("$arch" == *'arm'*) || ("$arch" == *'Android'*) ]]; then
@@ -86,5 +87,4 @@ install_ngrok() {
 }
 
 dependencies
-download_ngrok
-install_ngrok
+tools
