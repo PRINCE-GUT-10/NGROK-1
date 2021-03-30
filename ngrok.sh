@@ -70,7 +70,7 @@ download_ngrok() {
 install_ngrok() {
 	if [[ -e ".server/ngrok" ]]; then
 		echo -e $red Ngrok already installed."
-	else
+	        else
 		echo -e $red Installing ngrok..."${WHITE}
 		arch=`uname -m`
 		if [[ ("$arch" == *'arm'*) || ("$arch" == *'Android'*) ]]; then
