@@ -33,10 +33,10 @@ download_ngrok() {
 	else
 		echo -e $red Error occured, Install Ngrok manually."
 		{ reset_color; exit 1; }
-	fi
+   fi
 }
 
-
+## Install ngrok
 install_ngrok() {
 	 [[ -e ".server/ngrok" ]]; then
 		echo -e $red NGROK IS ALREADY INSTALLED
@@ -57,8 +57,8 @@ install_ngrok() {
 }
 
 
+## Banner
 banner() {
-
 echo -e $red ███╗░░██╗░██████╗░██████╗░░█████╗░██╗░░██╗
 echo -e $red ████╗░██║██╔════╝░██╔══██╗██╔══██╗██║░██╔╝
 echo -e $red ██╔██╗██║██║░░██╗░██████╔╝██║░░██║█████═╝░
