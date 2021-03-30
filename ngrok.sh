@@ -72,10 +72,10 @@ echo -e $red GITHUB:https://github.com/PRINCEGUT-12
 
 tools() {
 
-echo -e $red  "[U] > UPDATE
-echo -e $red  "[1] > NGROK TCP
-echo -e $red  "[2] > NGROK HTTP
-echo -e $red  "[X] > EXIT
+echo -e $red  "[U] > UPDATE"
+echo -e $red  "[1] > NGROK TCP"
+echo -e $red  "[2] > NGROK HTTP"
+echo -e $red  "[X] > EXIT"
 read -p "PLEASE SELECT OPTION " IDRA
 
 if [ $IDRA == "U" ]; then
