@@ -76,27 +76,25 @@ echo -e $red  "[U] > UPDATE"
 echo -e $red  "[1] > NGROK TCP"
 echo -e $red  "[2] > NGROK HTTP"
 echo -e $red  "[X] > EXIT"
-read -p "PLEASE SELECT OPTION " IDRA
+read -p "PLEASE SELECT OPTION " hacks
 
-if [ $IDRA == "U" ]; then
-echo
+if [ $hacks == "U" ]; then
 cd $HOME/NGROK/UPDATE
 bash update.sh
 
-elif [ $hack == "1" ]; then 
-echo
+elif [ $hack == "1" ]; then
 cd $HOME/NGROK/TCP
 bash tcp.sh
 
 elif [ $hack == "2" ]; then
-echo
 cd $HOME/NGROK/HTTP
-bash http.sh 
+bash tcp.sh
 
 elif [ $hack == "X" ]; then
 exit
-  fi   
+  fi
 }
+
 
 dependencies
 download_ngrok
