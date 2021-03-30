@@ -29,4 +29,3 @@ echo -e $red PLEASE ENTER PORT 4 DIGITS
 read -p "ENTER PORT " IDRAS
 if [ $IDRAS = 0 ]; then
 ./ngrok tcp $IDRAS
-
