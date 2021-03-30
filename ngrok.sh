@@ -2,7 +2,8 @@
 ## Coded by : PRINCE GUTIERREZ
 ## version  : 2.1.4
 ## Github   : https://github.com/PRINCEGUT-12
-red='\033[32;1m'
+red='\033[31;1m'
+blue='\033[32;1m
 
 dependencies() {
 
@@ -36,7 +37,6 @@ download_ngrok() {
    fi
 }
 
-## Install ngrok
 install_ngrok() {
 	 [[ -e ".server/ngrok" ]]; then
 		echo -e $red NGROK IS ALREADY INSTALLED
@@ -65,10 +65,10 @@ echo -e $red ██║░╚███║╚██████╔╝██║░�
 echo -e $red ╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝v2.1.4
 echo -e $red Coded by:PRINCE GUTIERREZ
 echo -e $red GITHUB:https://github.com/PRINCEGUT-12    
-echo -e $red  "[U] > UPDATE"
-echo -e $red  "[1] > NGROK TCP"
-echo -e $red  "[2] > NGROK HTTP"
-echo -e $red  "[X] > EXIT"
+echo -e $blue "[U] > UPDATE"
+echo -e $blue "[1] > TCP"
+echo -e $blue "[2] > HTTP"
+echo -e $blue "[X] > EXIT"
 read -p "PLEASE SELECT OPTION " hacks
 
 if [ $hacks == "U" ]; then
@@ -87,7 +87,6 @@ elif [ $hack == "X" ]; then
 exit
   fi
 }
-
 
 dependencies
 download_ngrok
