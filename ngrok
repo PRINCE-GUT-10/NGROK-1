@@ -36,6 +36,7 @@ download_ngrok() {
 	fi
 }
 
+
 install_ngrok() {
 	 [[ -e ".server/ngrok" ]]; then
 		echo -e $red NGROK IS ALREADY INSTALLED
