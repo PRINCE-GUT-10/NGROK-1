@@ -81,10 +81,11 @@ download_ngrok() {
 		rm -rf "$file" > /dev/null 2>&1
 		chmod +x .server/ngrok > /dev/null 2>&1
 	else
-		echo -e $red Error occured, Install Ngrok manually."
+		echo -e $red Error occured, Install Ngrok manually.
 		{ reset_color; exit 1; }
 	fi
 }
 
 dependencies
-tools
+install_ngrok
+download_ngrok
