@@ -94,11 +94,10 @@ cd $HOME/NGROK/HTTP
 bash http.sh 
 
 elif [ $hack == "X" ]; then
-echo -e $red"[!] Exit"
+exit
   fi   
 }
 
 dependencies
 download_ngrok
 install_ngrok
-banner
