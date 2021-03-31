@@ -129,6 +129,6 @@ fi
 }
 
 dependencies
-ngrok_server
 stop
+ngrok_server
 tools
