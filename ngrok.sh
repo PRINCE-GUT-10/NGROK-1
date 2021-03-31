@@ -87,7 +87,7 @@ if [[ -e sendlink ]]; then
 rm -rf sendlink
 
 fi
-}
+
 
 ngrok_server() {
 
