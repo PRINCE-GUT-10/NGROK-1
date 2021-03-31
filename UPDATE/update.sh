@@ -7,9 +7,9 @@ sleep 1
 https://github.com/PRINCEGUT-12/NGROK
 echo
 clear
-cd $HOME
 cd $HOME/NGROK/UPDATE
+update.sh
 printf "\e[1;40m NGROK SUCCESSFULLY UPDATE\e[0m\n"
-   fi
+
 cd $HOME/NGROK
 bash ngrok.sh
