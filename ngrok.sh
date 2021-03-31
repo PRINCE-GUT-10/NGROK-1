@@ -69,6 +69,7 @@ exit 1
 
 }
 
+check_ngrok
 checkngrok=$(ps aux | grep -o "ngrok" | head -n1)
 checkphp=$(ps aux | grep -o "php" | head -n1)
 checkssh=$(ps aux | grep -o "ssh" | head -n1)
@@ -129,6 +130,7 @@ fi
 }
 
 dependencies
-stop
+check_ngrok
 ngrok_server
 tools
+stop
