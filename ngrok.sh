@@ -34,16 +34,14 @@ read -p "PLEASE SELECT OPTION: " hug
 
 
 if [ $hug == "U" ]; then
-cd $HOME/NGROK/UPDATE
-bash update.sh
+cd $HOME && cd NGROK && cd UPDATE && bash update.sh
 
 elif [ $hug == "1" ]; then
-cd $HOME/NGROK/HTTP
-bash http.sh
+cd $HOME && cd NGROK && cd HTTP && bash http.sh
+
 
 elif [ $hug == "2" ]; then
-cd $HOME/NGROK/TCP
-bash tcp.sh
+cd $HOME && cd NGROK && cd TCP && bash tcp.sh
 
 elif [ $hug == "X" ]; then
 exit
