@@ -130,6 +130,5 @@ fi
 }
 
 dependencies
-tools
 check_ngrok
-ngrok_server
+tools
