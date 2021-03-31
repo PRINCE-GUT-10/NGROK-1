@@ -109,4 +109,4 @@ fi
 
 ngrok_server
 dependencies
-stop
+tools
