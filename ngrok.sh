@@ -109,6 +109,6 @@ fi
 
 }
 
-tools
-dependencies
 ngrok_server
+dependencies
+tools
