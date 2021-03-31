@@ -119,7 +119,7 @@ unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
 chmod +x ngrok
 rm -rf ngrok-stable-linux-386.zip
 else
-echo -e $blue[!] Downloading error"
+echo -e $blue[!] Downloading error
 exit 1
 fi
 fi
@@ -128,5 +128,4 @@ fi
 }
 
 dependencies
-install_ngrok
-download_ngrok
+tools
