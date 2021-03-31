@@ -129,6 +129,4 @@ fi
 
 }
 
-dependencies
-check_ngrok
-tools
+bash ngrok.sh
