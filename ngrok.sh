@@ -129,5 +129,4 @@ fi
 }
 
 dependencies
-check_ngrok
 tools
