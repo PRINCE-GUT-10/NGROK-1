@@ -10,6 +10,5 @@ clear
 cd $HOME/NGROK/UPDATE
 update.sh
 printf "\e[1;40m NGROK SUCCESSFULLY UPDATE\e[0m\n"
-
 cd $HOME/NGROK
 bash ngrok.sh
