@@ -123,10 +123,10 @@ rm -rf ngrok-stable-linux-386.zip
 else
 echo -e $blue[!] Downloading error
 exit 1
-fi
-fi
-fi
+  fi
 
 }
 
-bash ngrok.sh
+dependencies
+check_ngrok
+tools
