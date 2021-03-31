@@ -19,17 +19,17 @@ command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not instal
 
 tools(){
 
-echo-e $red ███╗░░██╗░██████╗░██████╗░░█████╗░██╗░░██╗
-echo-e $red ████╗░██║██╔════╝░██╔══██╗██╔══██╗██║░██╔╝
-echo-e $red ██╔██╗██║██║░░██╗░██████╔╝██║░░██║█████═╝░
-echo-e $red ██║╚████║██║░░╚██╗██╔══██╗██║░░██║██╔═██╗░
-echo-e $red ██║░╚███║╚██████╔╝██║░░██║╚█████╔╝██║░╚██╗
-echo-e $red █═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
+echo -e $red ███╗░░██╗░██████╗░██████╗░░█████╗░██╗░░██╗
+echo -e $red ████╗░██║██╔════╝░██╔══██╗██╔══██╗██║░██╔╝
+echo -e $red ██╔██╗██║██║░░██╗░██████╔╝██║░░██║█████═╝░
+echoc-e $red ██║╚████║██║░░╚██╗██╔══██╗██║░░██║██╔═██╗░
+echo -e $red ██║░╚███║╚██████╔╝██║░░██║╚█████╔╝██║░╚██╗
+echo -e $red █═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
 echo
-echo-e $red  "[U] > UPDATE"
-echo-e $red  "[1] > HTTP"
-echo-e $red  "[2] > TCP"
-echo-e $red  "[X] > EXIT"
+echo -e $red  "[U] > UPDATE"
+echo -e $red  "[1] > HTTP"
+echo -e $red  "[2] > TCP"
+echo -e $red  "[X] > EXIT"
 read -p "PLEASE SELECT OPTION: " hug
 
 
