@@ -1,5 +1,6 @@
 #this tool program by:prince gutierrez
 #this tool help you get ngrok link
+#VERSION :11.0
 blue='\033[31;1m'
 red='\033[32;1m'
 green='\033[33;1m'
@@ -24,8 +25,8 @@ echo -e $red ████╗░██║██╔════╝░██╔═�
 echo -e $red ██╔██╗██║██║░░██╗░██████╔╝██║░░██║█████═╝░
 echo -e $red ██║╚████║██║░░╚██╗██╔══██╗██║░░██║██╔═██╗░
 echo -e $red ██║░╚███║╚██████╔╝██║░░██║╚█████╔╝██║░╚██╗
-echo -e $red █═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
-echo
+echo -e $red █═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝VERSION : {11.0}
+echo -e $red Coded by : (Prince Gutierez) GITHUB : (PRINCEGUT-12)
 echo -e $red  "[1] > HTTP"
 echo -e $red  "[2] > TCP"
 read -p "PLEASE SELECT OPTION: " hug
@@ -68,8 +69,8 @@ echo ""
 else
 command -v unzip > /dev/null 2>&1 || { echo >&2 "I require unzip but it's not installed. Install it. Aborting."; exit 1; }
 command -v wget > /dev/null 2>&1 || { echo >&2 "I require wget but it's not installed. Install it. Aborting."; exit 1; }
-printf "\e[1;92m[\e[0m+\e[1;92m] Downloading Ngrok... [Please Wait... ]\n"
-                                
+echo -e $red Downloading Ngrok... [Please Wait... ]
+                              
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
 if [[ $arch == *'arm'* ]] || [[ $arch2 == *'Android'* ]] ; then
