@@ -11,4 +11,3 @@ if [ $IDRAS = 0 ]; then
 ./ngrok tcp $IDRAS > /dev/null 2>&1
 sleep 2
 exit
-
