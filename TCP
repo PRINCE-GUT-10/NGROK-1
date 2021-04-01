@@ -6,7 +6,7 @@ read -p "ENTER PORT: " idra
 if [ $idra == "0" ]; then
 echo -e $red NGROK STARTING
 else
-./ngrok http $love
+./ngrok tcp $idra
 fi
 sleep 1
 exit
