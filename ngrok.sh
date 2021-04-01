@@ -99,6 +99,8 @@ fi
 
 }
 
-ngrok_server
+
 dependencies
+tools
+ngrok_server
 stop
