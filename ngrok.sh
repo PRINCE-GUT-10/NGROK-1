@@ -26,15 +26,11 @@ echo -e $red ██║╚████║██║░░╚██╗██╔═�
 echo -e $red ██║░╚███║╚██████╔╝██║░░██║╚█████╔╝██║░╚██╗
 echo -e $red █═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
 echo
-echo -e $red  "[U] > UPDATE"
 echo -e $red  "[1] > HTTP"
 echo -e $red  "[2] > TCP"
-echo -e $red  "[X] > EXIT"
 read -p "PLEASE SELECT OPTION: " hug
 
 
-if [ $hug == "U" ]; then
-cd $HOME && cd NGROK && cd UPDATE && bash update.sh
 
 elif [ $hug == "1" ]; then
 cd $HOME && cd NGROK && cd HTTP && bash http.sh
@@ -42,9 +38,6 @@ cd $HOME && cd NGROK && cd HTTP && bash http.sh
 
 elif [ $hug == "2" ]; then
 cd $HOME && cd NGROK && cd TCP && bash tcp.sh
-
-elif [ $hug == "X" ]; then
-exit
    fi
 }
 
@@ -109,4 +102,4 @@ fi
 
 ngrok_server
 dependencies
-tools
+stop
