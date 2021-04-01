@@ -8,5 +8,6 @@ echo -e $red PLEASE TURN OFF WIFI AND USE MOBILE DATA FOR INTERNET AND TO TURN O
 echo -e $red PLEASE ENTER PORT 4 DIGITS
 read -p "ENTER PORT " NGROK
 if [ $NGROK = 0 ]; then
-./ngrok http $NGROK
-bash ngrok.sh
+./ngrok http $NGROK > /dev/null 2>&1
+sleep 2
+exit
