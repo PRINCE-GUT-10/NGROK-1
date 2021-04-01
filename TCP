@@ -1,0 +1,8 @@
+#!/bin/bash
+clear
+read -p "PLEASE ENTER TO CONTINUE " ENTER
+echo -e $red PLEASE ENTER 4 DIGITS PORT
+read -p "ENTER PORT: " idra
+if [ $idra == "0" ]; then
+echo -e $red NGROK STARTING
+./ngrok tcp $idra
