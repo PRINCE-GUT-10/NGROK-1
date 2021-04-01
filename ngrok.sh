@@ -69,7 +69,7 @@ echo ""
 else
 command -v unzip > /dev/null 2>&1 || { echo >&2 "I require unzip but it's not installed. Install it. Aborting."; exit 1; }
 command -v wget > /dev/null 2>&1 || { echo >&2 "I require wget but it's not installed. Install it. Aborting."; exit 1; }
-echo -e $red ~~~~~~~~~~ Downloading Ngrok...... ~~~~~~~~~~~~~~~ [PLEASE WAIT]
+echo -e $red ~~~~~~~~~~ Downloading Ngrok ~~~~~~~~~~ [PLEASE WAIT]
                               
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
