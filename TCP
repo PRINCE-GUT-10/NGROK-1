@@ -7,3 +7,7 @@ if [ $idra == "0" ]; then
 echo -e $red NGROK STARTING
 ./ngrok tcp $idra
 ./ngrok tcp $idra
+fi
+cd $HOME
+cd $HOME/NGROK
+bash ngrok.sh
