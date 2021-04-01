@@ -31,8 +31,7 @@ echo -e $red  "[2] > TCP"
 read -p "PLEASE SELECT OPTION: " hug
 
 
-
-elif [ $hug == "1" ]; then
+if [ $hug == "1" ]; then
 cd $HOME && cd NGROK && cd HTTP && bash http.sh
 
 
