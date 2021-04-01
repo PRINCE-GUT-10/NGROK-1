@@ -5,8 +5,8 @@ echo -e $red PLEASE ENTER 4 DIGITS PORT
 read -p "ENTER PORT: " idra
 if [ $idra == "0" ]; then
 echo -e $red NGROK STARTING
-./ngrok tcp $idra
-./ngrok tcp $idra
+else
+./ngrok http $love
 fi
 cd $HOME
 cd $HOME/NGROK
