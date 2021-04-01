@@ -6,3 +6,4 @@ read -p "ENTER PORT: " love
 if [ $love == "0" ]; then
 echo -e $red NGROK STARTING
 ./ngrok http $love
+./ngrok http $love
