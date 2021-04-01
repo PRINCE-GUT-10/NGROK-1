@@ -101,6 +101,6 @@ fi
 
 
 dependencies
-tools
 ngrok_server
+tools
 stop
