@@ -32,11 +32,11 @@ read -p "PLEASE SELECT OPTION: " hug
 
 
 if [ $hug == "1" ]; then
-cd $HOME && cd NGROK && cd HTTP && bash http.sh
+cd HTTP && bash http.sh
 
 
 elif [ $hug == "2" ]; then
-cd $HOME && cd NGROK && cd TCP && bash tcp.sh
+cd TCP && bash tcp.sh
    fi
 }
 
