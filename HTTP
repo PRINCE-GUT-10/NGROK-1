@@ -1,12 +1,12 @@
 #!/bin/bash
 clear
-read -p "PLEASE ENTER TO CONTINUE " ENTER
-echo -e $red PLEASE ENTER 4 DIGITS PORT
+./ngrok authtoken 1qbAN2lJJ9MF5mob07DJ8myTeW2_6dBKe98cqBKn8YJprkHCw
+read -p "PRESS ENTER TO CONTINUE " ENTER
+echo -e $red ENTER 4 DIGITS PORT
 read -p "ENTER PORT: " love
 if [ $love == "0" ]; then
 echo -e $red NGROK STARTING
 else
-./ngrok authtoken 1qbAN2lJJ9MF5mob07DJ8myTeW2_6dBKe98cqBKn8YJprkHCw
 ./ngrok http $love
 fi
 sleep 1
