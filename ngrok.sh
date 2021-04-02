@@ -26,11 +26,15 @@ echo -e $red ██╔██╗██║██║░░██╗░████�
 echo -e $red ██║╚████║██║░░╚██╗██╔══██╗██║░░██║██╔═██╗░
 echo -e $red ██║░╚███║╚██████╔╝██║░░██║╚█████╔╝██║░╚██╗
 echo -e $red █═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
-echo -e $red Coded by : {Prince Gutierez}
-echo -e $red  "[1] > HTTP"
-echo -e $red  "[2] > TCP"
-read -p "PLEASE SELECT OPTION: " hug
-
+echo -e $blue Coded By:PRINCE GUTIEREZ
+echo
+echo
+echo
+echo
+echo -e $red PLEASE SELECT OPTION TO START THE SERVER
+echo -e $red "[1] > HTTP SERVER
+echo -e $red "[2] > TCP SERVER
+read -p "SELECT SERVER " hug
 
 if [ $hug == "1" ]; then
 bash HTTP
