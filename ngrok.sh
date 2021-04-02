@@ -32,8 +32,8 @@ echo
 echo
 echo
 echo -e $red PLEASE SELECT OPTION TO START THE SERVER
-echo -e $red "[1] > HTTP SERVER
-echo -e $red "[2] > TCP SERVER
+echo -e $red "[1] > HTTP SERVER"
+echo -e $red "[2] > TCP SERVER"
 read -p "SELECT SERVER " hug
 
 if [ $hug == "1" ]; then
