@@ -27,12 +27,6 @@ echo -e $red ██║╚████║██║░░╚██╗██╔═�
 echo -e $red ██║░╚███║╚██████╔╝██║░░██║╚█████╔╝██║░╚██╗
 echo -e $red █═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
 echo -e $red           Coded by : {Prince Gutierez}
-echo
-echo
-echo
-echo
-echo
-echo -e $red SELECT OPTION TO START NGROK
 echo -e $red  "[1] > HTTP"
 echo -e $red  "[2] > TCP"
 read -p "PLEASE SELECT OPTION: " hug
