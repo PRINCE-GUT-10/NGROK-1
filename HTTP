@@ -10,4 +10,5 @@ else
 ./ngrok http $love
 fi
 sleep 1
+cd $HOME
 exit
